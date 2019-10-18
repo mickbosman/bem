@@ -1,0 +1,100 @@
+*,
+*::after,
+*::before
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+html
+{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+body
+{
+    font-family: "Courier", monospace;
+    color: red;
+    font-weight: 300;
+    line-height: 1.6;
+    background-color: grey;
+}
+.container
+{
+    width: 80%;
+    margin: 2rem auto;
+}
+.viewer
+{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(10, 5vw);
+    grid-gap: 1.5rem;
+}
+.item--1
+{
+    grid-area: logo;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    background-color: red;
+}
+.item--2
+{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 7;
+    background-color: yellow;
+}
+.item--3
+{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 7;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1vw);
+    grid-gap: 0.2rem;
+}
+.item--4
+{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 7;
+    grid-row-end: 11;
+    background-color: silver;
+}
+.viewer__control
+{
+	width: 70%;
+}
+.viewer__control:hover{
+
+}
+.item3 .up{}
+.item3 .left{}
+.item3 .right{}
+.item3 .down{}
+#small
+{
+    width: 100%
+}
+#small #tumbs img
+{
+    width: 20%;
+    padding: 1%;
+}
+.large__img
+{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.logo__img
+{
+	width: 30%;
+
+}
