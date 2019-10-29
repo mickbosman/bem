@@ -31,7 +31,7 @@ body
     grid-template-rows: repeat(10, 5vw);
     grid-gap: 1.5rem;
 }
-.item--1
+.item__1
 {
     grid-area: logo;
     grid-column-start: 1;
@@ -40,7 +40,7 @@ body
     grid-row-end: 1;
     background-color: red;
 }
-.item--2
+.item__2
 {
     grid-column-start: 1;
     grid-column-end: 4;
@@ -48,7 +48,7 @@ body
     grid-row-end: 7;
     background-color: yellow;
 }
-.item--3
+.item__3
 {
     grid-column-start: 4;
     grid-column-end: 5;
@@ -59,7 +59,7 @@ body
     grid-template-rows: repeat(3, 1vw);
     grid-gap: 0.2rem;
 }
-.item--4
+.item__4
 {
     grid-column-start: 1;
     grid-column-end: 5;
